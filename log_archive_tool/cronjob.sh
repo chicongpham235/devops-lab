@@ -6,7 +6,7 @@ LOG_FOLDER_PATH="./logs"
 create_cronjob() {
     cron_line="0 * * * * ${SCRIPT_PATH} ${LOG_FOLDER_PATH}"
     crontab -l >mycron
-    echo "$cron_line" >mycron
+    echo "$cron_line" >>mycron
     crontab mycron
     rm mycron
 }
