@@ -8,12 +8,12 @@ usage() {
 
 main() {
     # Check if the user has provided a log directory
-    if [ "$#" -ne 1 ]; then
+    if [ "$1" -ne 1 ]; then
         usage
     fi
 
     #Variables
-    LOG_OUTPUT_DIR=$
+    LOG_OUTPUT_DIR=$2
     LOG_SYS_DIR="/var/log"
     TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
     LOG_OUTPUT_FILENAME="logs_archive_${TIMESTAMP}.tar.gz"
