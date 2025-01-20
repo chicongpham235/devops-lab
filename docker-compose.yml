@@ -4,3 +4,5 @@ services:
     image: ubuntu/custom
     build:
       context: ./
+    volumes:
+      - ./log_archive_tool:/root/devops/log_archive_tool
