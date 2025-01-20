@@ -1,0 +1,6 @@
+services:
+  ubuntu:
+    container_name: ubuntu
+    image: ubuntu/custom
+    build:
+      context: ./
