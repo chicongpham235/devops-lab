@@ -1,6 +1,6 @@
 # Log Archive Tool
 
-A bash script to analyse basic server performance stats.
+A bash script to create an automatic log archive tool.
 
 ## Getting Started
 
@@ -29,4 +29,4 @@ A bash script to analyse basic server performance stats.
    ./crobjob.sh
    ```
 
-This project is part of [roadmap.sh](https://roadmap.sh/projects/server-stats) DevOps projects.
+This project is part of [roadmap.sh](https://roadmap.sh/projects/log-archive-tool) DevOps projects.
